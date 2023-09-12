@@ -14,6 +14,11 @@
 		AA4C07682AA64F9100843337 /* Onboarding_ScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07672AA64F9100843337 /* Onboarding_ScreensTests.swift */; };
 		AA4C07722AA64F9100843337 /* Onboarding_ScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07712AA64F9100843337 /* Onboarding_ScreensUITests.swift */; };
 		AA4C07742AA64F9100843337 /* Onboarding_ScreensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07732AA64F9100843337 /* Onboarding_ScreensUITestsLaunchTests.swift */; };
+		AA4C07812AA7BF7700843337 /* TypingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07802AA7BF7700843337 /* TypingEffect.swift */; };
+		AA4C07832AA7C3FB00843337 /* FiristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07822AA7C3FB00843337 /* FiristView.swift */; };
+		AA4C07852AA7C7EB00843337 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07842AA7C7EB00843337 /* SecondView.swift */; };
+		AA4C07872AA7C8AC00843337 /* GeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07862AA7C8AC00843337 /* GeoView.swift */; };
+		AA4C07892AA7C9AA00843337 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C07882AA7C9AA00843337 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		AA4C076D2AA64F9100843337 /* Onboarding ScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Onboarding ScreensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4C07712AA64F9100843337 /* Onboarding_ScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_ScreensUITests.swift; sourceTree = "<group>"; };
 		AA4C07732AA64F9100843337 /* Onboarding_ScreensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_ScreensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA4C07802AA7BF7700843337 /* TypingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffect.swift; sourceTree = "<group>"; };
+		AA4C07822AA7C3FB00843337 /* FiristView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiristView.swift; sourceTree = "<group>"; };
+		AA4C07842AA7C7EB00843337 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		AA4C07862AA7C8AC00843337 /* GeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoView.swift; sourceTree = "<group>"; };
+		AA4C07882AA7C9AA00843337 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				AA4C07582AA64F9000843337 /* ContentView.swift */,
 				AA4C075A2AA64F9100843337 /* Assets.xcassets */,
 				AA4C075C2AA64F9100843337 /* Preview Content */,
+				AA4C07802AA7BF7700843337 /* TypingEffect.swift */,
+				AA4C07822AA7C3FB00843337 /* FiristView.swift */,
+				AA4C07842AA7C7EB00843337 /* SecondView.swift */,
+				AA4C07862AA7C8AC00843337 /* GeoView.swift */,
+				AA4C07882AA7C9AA00843337 /* HomeView.swift */,
 			);
 			path = "Onboarding Screens";
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4C07812AA7BF7700843337 /* TypingEffect.swift in Sources */,
+				AA4C07892AA7C9AA00843337 /* HomeView.swift in Sources */,
+				AA4C07852AA7C7EB00843337 /* SecondView.swift in Sources */,
 				AA4C07592AA64F9000843337 /* ContentView.swift in Sources */,
 				AA4C07572AA64F9000843337 /* Onboarding_ScreensApp.swift in Sources */,
+				AA4C07872AA7C8AC00843337 /* GeoView.swift in Sources */,
+				AA4C07832AA7C3FB00843337 /* FiristView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
